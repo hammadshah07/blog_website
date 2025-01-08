@@ -53,31 +53,31 @@ const FeatureSection = () => {
       <h3 className="text-2xl font-semibold text-center my-6">Men&apos;s Section</h3>
       <div ref={scrollRefMen} className="overflow-x-auto whitespace-nowrap space-x-5 w-full h-[400px]">
         <div className="inline-block p-4">
-          <Link href="/blog/muscle-building">
+          <Link href="/blog">
             <Image src={muscle} alt="muscle building" width={300} height={100} />
             <p className="pt-5 text-[16px] hover:text-[30px] transition-all duration-300">Muscle Building</p>
           </Link>
         </div>
         <div className="inline-block p-4">
-          <Link href="/blog/shredded-training">
+          <Link href="/blog">
             <Image src={shreded} alt="shredded training" width={300} height={100} />
             <p className="pt-5 text-[16px] hover:text-[30px] transition-all duration-300">Shredded Training</p>
           </Link>
         </div>
         <div className="inline-block p-4">
-          <Link href="/blog/strength-training">
+          <Link href="/blog">
             <Image src={strength} alt="strength training" width={300} height={100} />
             <p className="pt-5 text-[16px] hover:text-[30px] transition-all duration-300">Strength Training</p>
           </Link>
         </div>
         <div className="inline-block p-4">
-          <Link href="/blog/abs-exercise">
+          <Link href="/blog">
             <Image src={maintain} alt="abs exercise" width={300} height={300} />
             <p className="pt-5 text-[16px] hover:text-[30px] transition-all duration-300">Abs Exercise</p>
           </Link>
         </div>
         <div className="inline-block p-4">
-          <Link href="/blog/fat-loss">
+          <Link href="/blog">
             <Image src={fatloss} alt="fat loss" width={300} height={300} />
             <p className="pt-5 text-[16px] hover:text-[30px] transition-all duration-300">Fat Loss</p>
           </Link>
@@ -87,31 +87,31 @@ const FeatureSection = () => {
       <h3 className="text-2xl font-semibold text-center my-6">Women&apos;s Section</h3>
       <div ref={scrollRefWomen} className="overflow-x-auto whitespace-nowrap space-x-5 w-full h-[400px]">
         <div className="inline-block p-4">
-          <Link href="/blog/strength-training-women">
+          <Link href="/blog">
             <Image src={strength2} alt="strength training" width={300} height={100} />
             <p className="pt-5 text-[16px] hover:text-[30px] transition-all duration-300">Strength Training</p>
           </Link>
         </div>
         <div className="inline-block p-4">
-          <Link href="/blog/cardio-workouts">
+          <Link href="/blog">
             <Image src={cardio} alt="cardio" width={300} height={100} />
             <p className="pt-5 text-[16px] hover:text-[30px] transition-all duration-300">Cardio</p>
           </Link>
         </div>
         <div className="inline-block p-4">
-          <Link href="/blog/weight-loss">
+          <Link href="/blog">
             <Image src={weightloss} alt="weight loss" width={300} height={100} />
             <p className="pt-5 text-[16px] hover:text-[30px] transition-all duration-300">Weight Loss</p>
           </Link>
         </div>
         <div className="inline-block p-4">
-          <Link href="/blog/abs-exercise-women">
+          <Link href="/blog">
             <Image src={abss} alt="abs exercise" width={300} height={300} />
             <p className="pt-5 text-[16px] hover:text-[30px] transition-all duration-300">Abs Exercise</p>
           </Link>
         </div>
         <div className="inline-block p-4">
-          <Link href="/blog/yoga">
+          <Link href="/blog">
             <Image src={yuga} alt="yoga" width={300} height={300} />
             <p className="pt-5 text-[16px] hover:text-[30px] transition-all duration-300">Yoga</p>
           </Link>
