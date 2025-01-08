@@ -50,7 +50,7 @@ const FeatureSection = () => {
     <div className="space-y-10 bg-gray-100">
       <h2 className="text-4xl font-serif pt-5">Feature Posts</h2>
       
-      <h3 className="text-2xl font-semibold text-center my-6">Men's Section</h3>
+      <h3 className="text-2xl font-semibold text-center my-6">Men&apos;s Section</h3>
       <div ref={scrollRefMen} className="overflow-x-auto whitespace-nowrap space-x-5 w-full h-[400px]">
         <div className="inline-block p-4">
           <Link href="/blog/muscle-building">
@@ -84,7 +84,7 @@ const FeatureSection = () => {
         </div>
       </div>
 
-      <h3 className="text-2xl font-semibold text-center my-6">Women's Section</h3>
+      <h3 className="text-2xl font-semibold text-center my-6">Women&apos;s Section</h3>
       <div ref={scrollRefWomen} className="overflow-x-auto whitespace-nowrap space-x-5 w-full h-[400px]">
         <div className="inline-block p-4">
           <Link href="/blog/strength-training-women">

@@ -1,4 +1,4 @@
-    // components/About.js
+// components/About.js
 import React from 'react';
 import Image from 'next/image';
 import fit from "../../../images/images (1).jpg"
@@ -25,7 +25,7 @@ const AboutSec = () => {
             <Image src={train} alt="Workout" className="rounded-lg mx-auto mb-4 w-64 h-64 object-cover" />
             <h3 className="text-xl font-semibold mb-2">Our Approach</h3>
             <p>
-              We focus on providing evidence-based information and practical advice. Whether you're a beginner or an experienced fitness enthusiast, our content is designed to be accessible and applicable to everyone.
+              We focus on providing evidence-based information and practical advice. Whether you&apos;re a beginner or an experienced fitness enthusiast, our content is designed to be accessible and applicable to everyone.
             </p>
           </div>
           <div className="flex-1 text-center">
@@ -42,4 +42,3 @@ const AboutSec = () => {
 };
 
 export default AboutSec;
-
